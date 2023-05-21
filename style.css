@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #080808;
+    color: white;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    list-style: none
+
+}
+nav ul li a{
+    color: white; 
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.container{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main-text{
+    margin-top: 20%;
+    font-size: 30px;
+    
+}
+.hi{
+    color: rgb(166, 213, 220);
+    font-size: 20px;
+}
+
+.main-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+/* ABOUT---- */
+
+#about{
+    padding: 250px 0;
+    color: #ababab;
+    margin-top: 200px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+.about-row-one{
+    flex-basis: 35%;
+}
+.about-row-one img{
+    width: 500px;
+    height: 600px;
+    border-radius: 13%;
+}
+.about-row-two{
+    flex-basis: 40%;
+}
+.sub-about-me{
+    font-size: 50px;
+    color: white;
+}
+
+.lowercase-about{
+    margin-top: 80px;
+    font-size: 18px;
+}
+
+.tab-titles{
+    display: flex;
+    /* gap: 35px; */
+    margin: 20px 0 40px;
+}
+
+.links{
+    margin-right: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.resume{
+   display: inline-block;
+   list-style: none;
+   padding: 10px 30px;
+   color: crimson;
+   background-color: transparent;
+   border: 2px solid crimson;
+   font-size: 25px;
+   text-transform: uppercase;
+   letter-spacing: .1rem;
+   margin-top: 20%;
+   transition: .3s ease background-color;
+   text-decoration: none; 
+}
+.resume:hover{
+    color: white;
+    background-color: crimson;
+}
+/* ---skils-- */
+#project{
+    padding: 80px 0;
+    color: #ababab;
+    margin-top: 200px;
+}
+
+.tap-one{
+    color: white;
+    font-size: 40px;
+}
+.tap-two{
+    padding: 20px;
+    color: rgb(166, 213, 220);
+    margin-left: 50px;
+
+}
+.box{
+    margin-top: 100px;
+}
+
+/* ----CONTACT--- */
+
+#contact{
+    /* margin-top: 300px; */
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact .contact-items{
+    width: 90%;
+    font-size: 3rem;
+}
+#contact .contact-item{
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 18px 0 white;
+
+}
+
+#contact .contact-item h1{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+#contact .contact-item h2 {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+#contact icon{
+    width: 70px;
+    height: 70px;
+    background: #fff;
+
+}
